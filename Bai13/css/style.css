@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+}
+.container .content .row{
+    margin-left: 300px;
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid ;
+    padding: 5px;
+    border: none;
+    box-shadow: 0 0 10px ;
+    border-radius: 3px;
+}
+.container .content .col {
+    width: 200px;
+    height: 250px;
+    border: 2px solid blue ;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+.container .content .col .item{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.container .content .col .item img{
+    width: 70%;
+    height: 60%;
+    border-radius: 3px;
+}
+.container .content .col .item img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.container .content h1{
+    font-size: 70px;
+    text-shadow: 0 0 3px #000000, 3px 0 3px #000000, 0 3px 3px #000000, -3px 0 3px #000000, 
+0 -3px 3px #000000;
+}
+.container{
+    position: relative;
+}
+.container .content p{
+    margin-top: 80px;
+}
+.container .ribbon{
+    background-color: rgb(148, 15, 15);
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    transform: rotate(-45deg);
+    color:#fff;
+    font-size: 23px;
+    position: absolute;
+    box-shadow: 0 0 10px #888;
+    margin-left: -45px;
+}

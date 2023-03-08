@@ -1,0 +1,52 @@
+.container nav{
+    display: block;
+}
+
+.container nav {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgb(197, 185, 185);
+}
+ li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+    position: relative;
+ }
+ 
+ a:link{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+ li > ul{
+    display: none;
+   
+ }
+ li:hover ul{
+    display: block;
+    position: absolute;
+    width: 270px;
+    left: -90px;
+    background-color: rgb(197, 185, 185);
+    padding-top: 20px;
+    margin-top: -3px;
+    transition: all 0.5s;
+ }
+
+
+ li:hover ul li a:link{
+    display: block;
+    margin-left: -30px;
+ }
+
+
+ 
+ 
